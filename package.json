@@ -1,0 +1,24 @@
+{
+  "name": "fetch-min",
+  "version": "1.0.0",
+  "description": "Minified version of whatwg-fetch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mwinche/fetch-min.git"
+  },
+  "keywords": [
+    "fetch",
+    "polyfill",
+    "minified",
+    "min"
+  ],
+  "author": "Matt Winchester",
+  "license": "MIT",
+  "devDependencies": {
+    "whatwg-fetch": "1.0.0"
+  }
+}
