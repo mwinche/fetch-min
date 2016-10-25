@@ -4,7 +4,7 @@
   "description": "Minified version of whatwg-fetch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "uglifyjs ./node_modules/whatwg-fetch/fetch.js -o index.js"
   },
   "repository": {
     "type": "git",
@@ -16,9 +16,11 @@
     "minified",
     "min"
   ],
+  "files": [ "index.js" ],
   "author": "Matt Winchester",
   "license": "MIT",
   "devDependencies": {
+    "uglify-js": "2.7.4",
     "whatwg-fetch": "1.0.0"
   }
 }
